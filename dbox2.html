@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmation Box</title>
+</head>
+<body>
+    <script>
+        var women = confirm("Are You a Woman?");
+
+        if (women) {
+            let name = prompt("Please Enter Your Name");
+            document.write("Hello Madam: " + name + ", Welcome to My Page");
+        } else {
+            let name = prompt("Please Enter Your Name: ");
+            document.write("Hello Mr. " + name + ", Welcome to My Page");
+        }
+    </script>
+</body>
+</html>
